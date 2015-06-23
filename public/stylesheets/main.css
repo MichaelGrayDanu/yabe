@@ -553,3 +553,12 @@ tr.odd {
 .hasError {
     background: pink;
 }
+
+a.tags{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+a.tags:hover{
+    text-decoration: underline;
+}
