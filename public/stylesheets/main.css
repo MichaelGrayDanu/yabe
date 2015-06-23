@@ -94,8 +94,7 @@ body {
 /** Main content **/
 
 #main {
-    background: #314660;
-    background: -webkit-gradient(linear, left top, left 30%, from(#314660), to(#364B66));
+    background: #2d3f56;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     padding: 20px;
@@ -175,7 +174,7 @@ body {
 
 .older-posts .post-title a {
     padding: 0;
-    color: #131921;
+    color: #F5C2CC;
     font-size: 20px;
 }
 
@@ -258,10 +257,9 @@ h3 span {
 
 form {
     padding: 10px;
-    background: #253142;
-    background: -webkit-gradient(linear, left top, left 60%, from(#253142), to(#364B66));
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    background: #2d3f56;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
 }
 
 form .error {
@@ -315,15 +313,20 @@ form label {
     list-style: none;
     padding: 0;
     position: relative;
-    color: #869AB1;
+    color: #fff;
     font-size: 90%;
     top: -20px;
     margin-bottom: 30px;
 }
 
 #pagination a {
-    color: #869AB1;
-    font-size: 90%;
+    color: #fff;
+    font-size: 95%;
+    text-decoration: none;
+}
+
+#pagination a:hover {
+    text-decoration: underline;
 }
 
 #pagination #previous {
