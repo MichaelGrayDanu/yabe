@@ -12,6 +12,10 @@ public class Post extends Model{
 	@Required
 	public String title;
 
+	public String toString(){
+		return title;
+	}
+
 	@Required
 	public Date postedAt;
 

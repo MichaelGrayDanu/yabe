@@ -29,7 +29,19 @@ body {
     color: #fff;
     font-size: 48px;
     font-weight: bold;
-    letter-spacing: -4px;
+    letter-spacing: -1px;
+    text-shadow: 1px 2px 2px #000;
+    text-decoration: none;
+}
+
+#logo{
+    display: block;
+    height: 49px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
     text-shadow: 1px 2px 2px #000;
     text-decoration: none;
 }
@@ -561,4 +573,16 @@ a.tags{
 
 a.tags:hover{
     text-decoration: underline;
+}
+
+.objectForm{
+    border:none !important;
+}
+
+.crudField{
+    border:none !important;
+}
+
+.crudButtons{
+    background:none !important; 
 }
