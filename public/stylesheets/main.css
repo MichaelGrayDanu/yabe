@@ -23,7 +23,7 @@ body {
 }
 
 #logo a {
-    display: block;
+    display: inline;
     height: 49px;
     margin-left: 20px;
     color: #fff;
@@ -35,7 +35,7 @@ body {
 }
 
 #logo{
-    display: block;
+    display: inline;
     height: 49px;
     margin-left: 20px;
     color: #fff;
